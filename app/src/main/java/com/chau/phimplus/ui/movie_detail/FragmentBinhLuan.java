@@ -5,9 +5,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,10 +19,7 @@ import com.chau.phimplus.Server.Dataserver;
 import com.chau.phimplus.ui.movie_detail.comment.CommentAdapter;
 import com.chau.phimplus.ui.movie_detail.comment.models.Comment;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
-import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -98,5 +93,5 @@ public class FragmentBinhLuan extends Fragment implements CommentAdapter.OnComme
 
 }
 
-}
+
 

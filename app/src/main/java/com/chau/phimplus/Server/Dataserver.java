@@ -8,11 +8,6 @@ import com.chau.phimplus.ui.movie_detail.LichChieu.Models.Seat;
 import com.chau.phimplus.ui.movie_detail.comment.models.Comment;
 
 import java.util.ArrayList;
-
-import com.chau.phimplus.ui.movie_detail.comment.models.Comment;
-
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import retrofit2.Call;
@@ -20,9 +15,6 @@ import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
-import retrofit2.http.Headers;
-import retrofit2.http.POST;
-import retrofit2.http.Query;
 
 public interface Dataserver {
 
@@ -38,9 +30,9 @@ public interface Dataserver {
     );
 
 
-    //GET Comments
-    @GET("get_account.php")
-    Call<List<TaiKhoan>> getTaiKhoan();
+//    //GET Comments
+//    @GET("get_account.php")
+//    Call<List<TaiKhoan>> getTaiKhoan();
 
     @POST("create_account.php")
     @FormUrlEncoded
